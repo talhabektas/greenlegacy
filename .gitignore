@@ -1,0 +1,5 @@
+# Google OAuth settings  
+
+# Ignore .env files  
+*.env  
+*.env.example  
