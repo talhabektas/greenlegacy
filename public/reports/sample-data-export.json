@@ -1,0 +1,158 @@
+{
+  "farm_data": {
+    "report_date": "31.01.2025",
+    "farm_name": "Yeşil Miras Çiftliği",
+    "data_period": "Ocak 2025"
+  },
+  "production_data": [
+    {
+      "product": "Domates (Sera)",
+      "production_tons": 68.2,
+      "yield_tons_per_ha": 76.4,
+      "quality_score": 94.5
+    },
+    {
+      "product": "Salatalık (Sera)",
+      "production_tons": 42.5,
+      "yield_tons_per_ha": 52.5,
+      "quality_score": 96.8
+    },
+    {
+      "product": "Biber (Sera)",
+      "production_tons": 35.1,
+      "yield_tons_per_ha": 43.8,
+      "quality_score": 92.3
+    },
+    {
+      "product": "Portakal",
+      "production_tons": 54.3,
+      "yield_tons_per_ha": 27.0,
+      "quality_score": 95.4
+    },
+    {
+      "product": "Mandalina",
+      "production_tons": 32.8,
+      "yield_tons_per_ha": 22.9,
+      "quality_score": 94.1
+    },
+    {
+      "product": "Buğday (Kışlık)",
+      "production_tons": 290.5,
+      "yield_tons_per_ha": 5.8,
+      "quality_score": 96.2
+    }
+  ],
+  "water_usage": [
+    {
+      "area": "Sera Bölgesi A",
+      "water_usage_m3": 4250,
+      "efficiency_kg_per_m3": 18.5,
+      "change_from_prev_month_percent": 4.2
+    },
+    {
+      "area": "Sera Bölgesi B",
+      "water_usage_m3": 3830,
+      "efficiency_kg_per_m3": 19.2,
+      "change_from_prev_month_percent": 5.1
+    },
+    {
+      "area": "Açık Alan C",
+      "water_usage_m3": 8640,
+      "efficiency_kg_per_m3": 12.4,
+      "change_from_prev_month_percent": 2.8
+    },
+    {
+      "area": "Açık Alan D",
+      "water_usage_m3": 9280,
+      "efficiency_kg_per_m3": 11.8,
+      "change_from_prev_month_percent": 3.5
+    },
+    {
+      "area": "Meyve Bahçesi E",
+      "water_usage_m3": 5120,
+      "efficiency_kg_per_m3": 15.6,
+      "change_from_prev_month_percent": 2.3
+    }
+  ],
+  "energy_consumption": [
+    {
+      "source": "Şebeke Elektriği",
+      "consumption": "42500 kWh",
+      "cost_try": 105200,
+      "co2_emission_kg": 23800
+    },
+    {
+      "source": "Güneş Enerjisi",
+      "consumption": "28900 kWh",
+      "cost_try": 0,
+      "co2_emission_kg": 0
+    },
+    {
+      "source": "Rüzgar Enerjisi",
+      "consumption": "11600 kWh",
+      "cost_try": 0,
+      "co2_emission_kg": 0
+    },
+    {
+      "source": "Biyogaz",
+      "consumption": "7250 kWh",
+      "cost_try": 3600,
+      "co2_emission_kg": 980
+    },
+    {
+      "source": "Dizel Yakıt",
+      "consumption": "2450 litre",
+      "cost_try": 98000,
+      "co2_emission_kg": 6450
+    }
+  ],
+  "sensor_data": [
+    {
+      "sensor_type": "Toprak Nemi",
+      "unit": "%",
+      "average_value": 41.8,
+      "min_value": 32.4,
+      "max_value": 58.6
+    },
+    {
+      "sensor_type": "Toprak Sıcaklığı",
+      "unit": "°C",
+      "average_value": 12.6,
+      "min_value": 8.2,
+      "max_value": 16.5
+    },
+    {
+      "sensor_type": "Hava Sıcaklığı",
+      "unit": "°C",
+      "average_value": 15.8,
+      "min_value": 3.4,
+      "max_value": 28.7
+    },
+    {
+      "sensor_type": "Hava Nemi",
+      "unit": "%",
+      "average_value": 68.3,
+      "min_value": 42.5,
+      "max_value": 92.8
+    },
+    {
+      "sensor_type": "Yaprak Islak Süresi",
+      "unit": "saat/gün",
+      "average_value": 2.8,
+      "min_value": 0.0,
+      "max_value": 8.5
+    },
+    {
+      "sensor_type": "CO₂ Seviyesi",
+      "unit": "ppm",
+      "average_value": 458.0,
+      "min_value": 392.0,
+      "max_value": 684.0
+    }
+  ],
+  "metadata": {
+    "generated_at": "2025-01-31T16:42:30",
+    "version": "1.0.0",
+    "export_format": "JSON"
+  }
+} 

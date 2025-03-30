@@ -1,0 +1,21 @@
+Ürün,Üretim (ton),Verim (ton/ha),Kalite Skoru (%)
+Domates (Sera),68.2,76.4,94.5
+Salatalık (Sera),42.5,52.5,96.8
+Biber (Sera),35.1,43.8,92.3
+Portakal,54.3,27.0,95.4
+Mandalina,32.8,22.9,94.1
+Buğday (Kışlık),290.5,5.8,96.2
+
+Alan,Su Kullanımı (m³),Verimlilik (kg/m³),Önceki Aya Göre (%)
+Sera Bölgesi A,4250,18.5,4.2
+Sera Bölgesi B,3830,19.2,5.1
+Açık Alan C,8640,12.4,2.8
+Açık Alan D,9280,11.8,3.5
+Meyve Bahçesi E,5120,15.6,2.3
+
+Kaynak,Tüketim,Maliyet (₺),CO₂ Emisyonu (kg)
+Şebeke Elektriği,42500 kWh,105200,23800
+Güneş Enerjisi,28900 kWh,0,0
+Rüzgar Enerjisi,11600 kWh,0,0
+Biyogaz,7250 kWh,3600,980
+Dizel Yakıt,2450 litre,98000,6450 

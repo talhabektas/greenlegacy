@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Excel Dosyası Simülasyonu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      color: #333;
+    }
+    .excel-container {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+    .excel-header {
+      background-color: #217346;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+    .excel-sheet {
+      background-color: white;
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .sheet-name {
+      background-color: #f0f0f0;
+      padding: 8px 15px;
+      display: inline-block;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-bottom: none;
+      font-weight: bold;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+    .excel-footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #666;
+    }
+    .note {
+      background-color: #fffde7;
+      padding: 15px;
+      border-left: 4px solid #fbc02d;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="excel-container">
+    <div class="excel-header">
+      <h1>Yeşil Miras - Excel Veri Dışa Aktarımı</h1>
+      <p>Ocak 2025 Verileri</p>
+    </div>
+    
+    <div class="note">
+      <p><strong>Not:</strong> Bu, gerçek bir Excel dosyası değildir. Bu bir HTML sayfasıdır ve gerçek bir Excel verisi yerine içerik gösterimi amacıyla oluşturulmuştur. Gerçek uygulamada, burada bir .xlsx dosyası indirilecektir.</p>
+    </div>
+    
+    <div class="excel-sheet">
+      <div class="sheet-name">Üretim Verileri</div>
+      <table>
+        <tr>
+          <th>A</th>
+          <th>B</th>
+          <th>C</th>
+          <th>D</th>
+        </tr>
+        <tr>
+          <td><strong>Ürün</strong></td>
+          <td><strong>Üretim (ton)</strong></td>
+          <td><strong>Verim (ton/ha)</strong></td>
+          <td><strong>Kalite Skoru (%)</strong></td>
+        </tr>
+        <tr>
+          <td>Domates (Sera)</td>
+          <td>68.2</td>
+          <td>76.4</td>
+          <td>94.5</td>
+        </tr>
+        <tr>
+          <td>Salatalık (Sera)</td>
+          <td>42.5</td>
+          <td>52.5</td>
+          <td>96.8</td>
+        </tr>
+        <tr>
+          <td>Biber (Sera)</td>
+          <td>35.1</td>
+          <td>43.8</td>
+          <td>92.3</td>
+        </tr>
+        <tr>
+          <td>Portakal</td>
+          <td>54.3</td>
+          <td>27.0</td>
+          <td>95.4</td>
+        </tr>
+        <tr>
+          <td>Mandalina</td>
+          <td>32.8</td>
+          <td>22.9</td>
+          <td>94.1</td>
+        </tr>
+        <tr>
+          <td>Buğday (Kışlık)</td>
+          <td>290.5</td>
+          <td>5.8</td>
+          <td>96.2</td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="excel-sheet">
+      <div class="sheet-name">Su Kullanımı</div>
+      <table>
+        <tr>
+          <th>A</th>
+          <th>B</th>
+          <th>C</th>
+          <th>D</th>
+        </tr>
+        <tr>
+          <td><strong>Alan</strong></td>
+          <td><strong>Su Kullanımı (m³)</strong></td>
+          <td><strong>Verimlilik (kg/m³)</strong></td>
+          <td><strong>Önceki Aya Göre (%)</strong></td>
+        </tr>
+        <tr>
+          <td>Sera Bölgesi A</td>
+          <td>4250</td>
+          <td>18.5</td>
+          <td>4.2</td>
+        </tr>
+        <tr>
+          <td>Sera Bölgesi B</td>
+          <td>3830</td>
+          <td>19.2</td>
+          <td>5.1</td>
+        </tr>
+        <tr>
+          <td>Açık Alan C</td>
+          <td>8640</td>
+          <td>12.4</td>
+          <td>2.8</td>
+        </tr>
+        <tr>
+          <td>Açık Alan D</td>
+          <td>9280</td>
+          <td>11.8</td>
+          <td>3.5</td>
+        </tr>
+        <tr>
+          <td>Meyve Bahçesi E</td>
+          <td>5120</td>
+          <td>15.6</td>
+          <td>2.3</td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="excel-sheet">
+      <div class="sheet-name">Enerji Tüketimi</div>
+      <table>
+        <tr>
+          <th>A</th>
+          <th>B</th>
+          <th>C</th>
+          <th>D</th>
+        </tr>
+        <tr>
+          <td><strong>Kaynak</strong></td>
+          <td><strong>Tüketim</strong></td>
+          <td><strong>Maliyet (₺)</strong></td>
+          <td><strong>CO₂ Emisyonu (kg)</strong></td>
+        </tr>
+        <tr>
+          <td>Şebeke Elektriği</td>
+          <td>42500 kWh</td>
+          <td>105200</td>
+          <td>23800</td>
+        </tr>
+        <tr>
+          <td>Güneş Enerjisi</td>
+          <td>28900 kWh</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Rüzgar Enerjisi</td>
+          <td>11600 kWh</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Biyogaz</td>
+          <td>7250 kWh</td>
+          <td>3600</td>
+          <td>980</td>
+        </tr>
+        <tr>
+          <td>Dizel Yakıt</td>
+          <td>2450 litre</td>
+          <td>98000</td>
+          <td>6450</td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="excel-sheet">
+      <div class="sheet-name">Sensör Verileri</div>
+      <table>
+        <tr>
+          <th>A</th>
+          <th>B</th>
+          <th>C</th>
+          <th>D</th>
+          <th>E</th>
+        </tr>
+        <tr>
+          <td><strong>Sensör Tipi</strong></td>
+          <td><strong>Birim</strong></td>
+          <td><strong>Ortalama</strong></td>
+          <td><strong>Min.</strong></td>
+          <td><strong>Maks.</strong></td>
+        </tr>
+        <tr>
+          <td>Toprak Nemi</td>
+          <td>%</td>
+          <td>41.8</td>
+          <td>32.4</td>
+          <td>58.6</td>
+        </tr>
+        <tr>
+          <td>Toprak Sıcaklığı</td>
+          <td>°C</td>
+          <td>12.6</td>
+          <td>8.2</td>
+          <td>16.5</td>
+        </tr>
+        <tr>
+          <td>Hava Sıcaklığı</td>
+          <td>°C</td>
+          <td>15.8</td>
+          <td>3.4</td>
+          <td>28.7</td>
+        </tr>
+        <tr>
+          <td>Hava Nemi</td>
+          <td>%</td>
+          <td>68.3</td>
+          <td>42.5</td>
+          <td>92.8</td>
+        </tr>
+        <tr>
+          <td>Yaprak Islak Süresi</td>
+          <td>saat/gün</td>
+          <td>2.8</td>
+          <td>0</td>
+          <td>8.5</td>
+        </tr>
+        <tr>
+          <td>CO₂ Seviyesi</td>
+          <td>ppm</td>
+          <td>458</td>
+          <td>392</td>
+          <td>684</td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="excel-footer">
+      <p>Bu veri dışa aktarım örneği, Yeşil Miras Çiftliği'nin Ocak 2025 verilerinden derlenmiştir.</p>
+      <p>© 2025 Yeşil Miras - Tüm hakları saklıdır.</p>
+    </div>
+  </div>
+</body>
+</html> 

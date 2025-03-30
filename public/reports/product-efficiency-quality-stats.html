@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ürün Verimliliği ve Kalite İstatistikleri - Yeşil Miras</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      color: #333;
+    }
+    .header {
+      background-color: #00bcd4;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    h2 {
+      color: #00bcd4;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .footer {
+      text-align: center;
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .chart {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 15px;
+      text-align: center;
+      margin: 20px 0;
+      border-radius: 5px;
+    }
+    .chart p {
+      font-style: italic;
+      color: #666;
+    }
+    .quality-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .quality-item {
+      flex: 1;
+      min-width: 150px;
+      background-color: #e0f7fa;
+      border-radius: 5px;
+      padding: 15px;
+      text-align: center;
+    }
+    .quality-item h3 {
+      margin-top: 0;
+      color: #00bcd4;
+    }
+    .quality-item .value {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .trend {
+      font-size: 14px;
+    }
+    .trend.up {
+      color: #4caf50;
+    }
+    .trend.down {
+      color: #f44336;
+    }
+    .highlight {
+      background-color: #e0f7fa;
+      padding: 15px;
+      border-radius: 5px;
+      border-left: 4px solid #00bcd4;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <strong>YEŞİL MİRAS</strong>
+  </div>
+
+  <div class="header">
+    <h1>Ürün Verimliliği ve Kalite İstatistikleri</h1>
+  </div>
+
+  <div class="section">
+    <h2>Yönetici Özeti</h2>
+    <p>Bu rapor, Yeşil Miras çiftliğinde yetiştirilen ürünlerin verim, kalite ve üretim miktarlarıyla ilgili istatistiksel analizini sunmaktadır. 2025 yılı verileri, sürdürülebilir tarım uygulamalarımızın ve dijital teknolojilerimizin ürün verimliliği ve kalitesi üzerindeki etkilerini göstermektedir.</p>
+    
+    <div class="quality-box">
+      <div class="quality-item">
+        <h3>Ortalama Verim Artışı</h3>
+        <div class="value">18.7%</div>
+        <div class="trend up">↑ 4.2% (2024'e göre)</div>
+      </div>
+      <div class="quality-item">
+        <h3>Kalite Standardı Uyumu</h3>
+        <div class="value">96.3%</div>
+        <div class="trend up">↑ 3.8% (2024'e göre)</div>
+      </div>
+      <div class="quality-item">
+        <h3>Organik Sertifikalı Üretim</h3>
+        <div class="value">72.5%</div>
+        <div class="trend up">↑ 8.5% (2024'e göre)</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Ürün Verimliliği Analizi</h2>
+    <p>Yeşil Miras çiftliğinde yetiştirilen ana ürünlerin verimlilik değerleri (ton/hektar):</p>
+    <table>
+      <tr>
+        <th>Ürün</th>
+        <th>Bölgesel Ortalama</th>
+        <th>Yeşil Miras (2024)</th>
+        <th>Yeşil Miras (2025)</th>
+        <th>Değişim (%)</th>
+      </tr>
+      <tr>
+        <td>Buğday</td>
+        <td>3.2</td>
+        <td>4.8</td>
+        <td>5.6</td>
+        <td>+16.7</td>
+      </tr>
+      <tr>
+        <td>Domates</td>
+        <td>52.0</td>
+        <td>68.3</td>
+        <td>76.5</td>
+        <td>+12.0</td>
+      </tr>
+      <tr>
+        <td>Elma</td>
+        <td>24.5</td>
+        <td>32.4</td>
+        <td>38.7</td>
+        <td>+19.4</td>
+      </tr>
+      <tr>
+        <td>Zeytin</td>
+        <td>4.8</td>
+        <td>7.2</td>
+        <td>8.9</td>
+        <td>+23.6</td>
+      </tr>
+      <tr>
+        <td>Mısır</td>
+        <td>8.6</td>
+        <td>12.5</td>
+        <td>14.7</td>
+        <td>+17.6</td>
+      </tr>
+      <tr>
+        <td>Üzüm</td>
+        <td>12.8</td>
+        <td>15.6</td>
+        <td>19.2</td>
+        <td>+23.1</td>
+      </tr>
+    </table>
+    
+    <div class="chart">
+      <p>Grafik 1: Ürün Verimliliği Karşılaştırması (2025)</p>
+    </div>
+    
+    <div class="highlight">
+      <p>Verimlilik artışına katkıda bulunan faktörler:</p>
+      <ul>
+        <li>Toprak sağlığını artıran sürdürülebilir uygulamalar</li>
+        <li>Hassas tarım teknolojileri ile optimize edilmiş girdi kullanımı</li>
+        <li>İklim koşullarına uygun ekim ve hasat programlaması</li>
+        <li>Hastalık ve zararlı erken uyarı sistemleri</li>
+        <li>Bölgeye uyarlanmış yüksek verimli tohum çeşitleri</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Ürün Kalite Metrikleri</h2>
+    <table>
+      <tr>
+        <th>Ürün</th>
+        <th>Kalite Parametresi</th>
+        <th>Ölçüm Değeri</th>
+        <th>Sektör Standardı</th>
+        <th>Fark (%)</th>
+      </tr>
+      <tr>
+        <td rowspan="3">Buğday</td>
+        <td>Protein İçeriği (%)</td>
+        <td>14.2</td>
+        <td>12.5</td>
+        <td>+13.6</td>
+      </tr>
+      <tr>
+        <td>Glüten İndeksi</td>
+        <td>86</td>
+        <td>78</td>
+        <td>+10.3</td>
+      </tr>
+      <tr>
+        <td>Hektolitre Ağırlığı (kg/hl)</td>
+        <td>82.5</td>
+        <td>78.0</td>
+        <td>+5.8</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Domates</td>
+        <td>Brix Değeri</td>
+        <td>5.8</td>
+        <td>4.5</td>
+        <td>+28.9</td>
+      </tr>
+      <tr>
+        <td>Likopen İçeriği (mg/kg)</td>
+        <td>136</td>
+        <td>110</td>
+        <td>+23.6</td>
+      </tr>
+      <tr>
+        <td>Raf Ömrü (gün)</td>
+        <td>18</td>
+        <td>12</td>
+        <td>+50.0</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Elma</td>
+        <td>Sertlik (kg/cm²)</td>
+        <td>7.8</td>
+        <td>6.5</td>
+        <td>+20.0</td>
+      </tr>
+      <tr>
+        <td>Şeker/Asit Oranı</td>
+        <td>16.5</td>
+        <td>14.0</td>
+        <td>+17.9</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Zeytinyağı</td>
+        <td>Serbest Yağ Asitliği (%)</td>
+        <td>0.3</td>
+        <td>0.8</td>
+        <td>+62.5</td>
+      </tr>
+      <tr>
+        <td>Peroksit Değeri (meq O₂/kg)</td>
+        <td>6.2</td>
+        <td>10.0</td>
+        <td>+38.0</td>
+      </tr>
+    </table>
+    
+    <div class="chart">
+      <p>Grafik 2: Ürün Kalite Göstergeleri</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Üretim İstatistikleri</h2>
+    <table>
+      <tr>
+        <th>Ürün Grubu</th>
+        <th>2024 Üretim (ton)</th>
+        <th>2025 Üretim (ton)</th>
+        <th>Değişim (%)</th>
+        <th>Ekili Alan (ha)</th>
+      </tr>
+      <tr>
+        <td>Tahıllar</td>
+        <td>1,850</td>
+        <td>2,240</td>
+        <td>+21.1</td>
+        <td>420</td>
+      </tr>
+      <tr>
+        <td>Sebzeler</td>
+        <td>2,650</td>
+        <td>3,180</td>
+        <td>+20.0</td>
+        <td>65</td>
+      </tr>
+      <tr>
+        <td>Meyve ve Bağlar</td>
+        <td>1,920</td>
+        <td>2,350</td>
+        <td>+22.4</td>
+        <td>220</td>
+      </tr>
+      <tr>
+        <td>Baklagiller</td>
+        <td>760</td>
+        <td>890</td>
+        <td>+17.1</td>
+        <td>120</td>
+      </tr>
+      <tr>
+        <td>Endüstriyel Bitkiler</td>
+        <td>520</td>
+        <td>640</td>
+        <td>+23.1</td>
+        <td>75</td>
+      </tr>
+      <tr>
+        <td><strong>Toplam</strong></td>
+        <td><strong>7,700</strong></td>
+        <td><strong>9,300</strong></td>
+        <td><strong>+20.8</strong></td>
+        <td><strong>900</strong></td>
+      </tr>
+    </table>
+    
+    <div class="highlight">
+      <p>2025 yılında toplam organik sertifikalı üretim miktarı 6,742 ton olup, bu değer toplam üretimin %72.5'ine karşılık gelmektedir.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Kaynak Kullanım Verimliliği</h2>
+    <table>
+      <tr>
+        <th>Kaynak</th>
+        <th>Birim Kullanım (per ton ürün)</th>
+        <th>2024 Değer</th>
+        <th>2025 Değer</th>
+        <th>İyileşme (%)</th>
+      </tr>
+      <tr>
+        <td>Su</td>
+        <td>m³/ton</td>
+        <td>35.2</td>
+        <td>27.8</td>
+        <td>21.0</td>
+      </tr>
+      <tr>
+        <td>Enerji</td>
+        <td>kWh/ton</td>
+        <td>42.6</td>
+        <td>34.5</td>
+        <td>19.0</td>
+      </tr>
+      <tr>
+        <td>Gübre (N-P-K)</td>
+        <td>kg/ton</td>
+        <td>18.5</td>
+        <td>13.8</td>
+        <td>25.4</td>
+      </tr>
+      <tr>
+        <td>Zirai İlaç</td>
+        <td>g/ton</td>
+        <td>680</td>
+        <td>480</td>
+        <td>29.4</td>
+      </tr>
+      <tr>
+        <td>İşgücü</td>
+        <td>saat/ton</td>
+        <td>3.2</td>
+        <td>2.4</td>
+        <td>25.0</td>
+      </tr>
+    </table>
+    
+    <div class="chart">
+      <p>Grafik 3: Birim Ürün Başına Kaynak Kullanımı Karşılaştırması</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Verimlilik İyileştirme Projeleri</h2>
+    <ol>
+      <li>
+        <h3>Akıllı Rotasyon Sistemi</h3>
+        <p>Toprak analizi ve ürün gereksinimlerine dayalı optimize edilmiş ekim nöbeti planlaması. Verim artışına katkısı: %8.4</p>
+      </li>
+      <li>
+        <h3>Mikrobiyal Gübre Uygulaması</h3>
+        <p>Bölgeye özgü faydalı mikroorganizmalardan geliştirilen biyogübre kullanımı. Verim artışına katkısı: %7.2</p>
+      </li>
+      <li>
+        <h3>Hassas Sulama Yönetimi</h3>
+        <p>Bitki su stresinin gerçek zamanlı izlenmesine dayalı sulama optimizasyonu. Verim artışına katkısı: %6.5</p>
+      </li>
+      <li>
+        <h3>Yaprak Analizi Destekli Besleme</h3>
+        <p>Yaprak doku analizine göre mikro element uygulaması. Verim artışına katkısı: %4.8</p>
+      </li>
+      <li>
+        <h3>Çeşit Adaptasyon Programı</h3>
+        <p>İklim değişikliğine uyum sağlayan yerel ve hibrit çeşitlerin deneme üretimleri. Verim artışına katkısı: %5.9</p>
+      </li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <h2>2026 Hedefleri</h2>
+    <ul>
+      <li>Ortalama verim artışını %5 daha yükseltmek</li>
+      <li>Organik sertifikalı üretim oranını %80'e çıkarmak</li>
+      <li>Birim ürün başına su kullanımını %10 daha azaltmak</li>
+      <li>Hasat sonrası kayıpları %3'ün altına indirmek</li>
+      <li>Karbon ayak izini %15 daha azaltmak</li>
+      <li>Biyoçeşitlilik destekli üretim alanını %30 genişletmek</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    <p>© 2025 Yeşil Miras Çiftliği. Bu rapor sürdürülebilir kaynaklardan üretilmiştir.</p>
+    <p>İletişim: quality@yesilmiras.com | www.yesilmiras.com/product-quality</p>
+  </div>
+</body>
+</html> 

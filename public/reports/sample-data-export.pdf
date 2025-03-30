@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yeşil Miras - Örnek Veri Dışa Aktarımı</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #00bcd4;
+    }
+    h2 {
+      color: #00bcd4;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>Yeşil Miras - Örnek Veri Dışa Aktarımı</h1>
+  
+  <h2>Üretim Verileri - Ocak 2025</h2>
+  <table>
+    <tr>
+      <th>Ürün</th>
+      <th>Üretim (ton)</th>
+      <th>Verim (ton/ha)</th>
+      <th>Kalite Skoru (%)</th>
+    </tr>
+    <tr>
+      <td>Domates (Sera)</td>
+      <td>68.2</td>
+      <td>76.4</td>
+      <td>94.5</td>
+    </tr>
+    <tr>
+      <td>Salatalık (Sera)</td>
+      <td>42.5</td>
+      <td>52.5</td>
+      <td>96.8</td>
+    </tr>
+    <tr>
+      <td>Biber (Sera)</td>
+      <td>35.1</td>
+      <td>43.8</td>
+      <td>92.3</td>
+    </tr>
+    <tr>
+      <td>Portakal</td>
+      <td>54.3</td>
+      <td>27.0</td>
+      <td>95.4</td>
+    </tr>
+    <tr>
+      <td>Mandalina</td>
+      <td>32.8</td>
+      <td>22.9</td>
+      <td>94.1</td>
+    </tr>
+    <tr>
+      <td>Buğday (Kışlık)</td>
+      <td>290.5</td>
+      <td>5.8</td>
+      <td>96.2</td>
+    </tr>
+  </table>
+  
+  <h2>Su Kullanım Metrikleri</h2>
+  <table>
+    <tr>
+      <th>Alan</th>
+      <th>Su Kullanımı (m³)</th>
+      <th>Verimlilik (kg/m³)</th>
+      <th>Önceki Aya Göre (%)</th>
+    </tr>
+    <tr>
+      <td>Sera Bölgesi A</td>
+      <td>4,250</td>
+      <td>18.5</td>
+      <td>+4.2</td>
+    </tr>
+    <tr>
+      <td>Sera Bölgesi B</td>
+      <td>3,830</td>
+      <td>19.2</td>
+      <td>+5.1</td>
+    </tr>
+    <tr>
+      <td>Açık Alan C</td>
+      <td>8,640</td>
+      <td>12.4</td>
+      <td>+2.8</td>
+    </tr>
+    <tr>
+      <td>Açık Alan D</td>
+      <td>9,280</td>
+      <td>11.8</td>
+      <td>+3.5</td>
+    </tr>
+    <tr>
+      <td>Meyve Bahçesi E</td>
+      <td>5,120</td>
+      <td>15.6</td>
+      <td>+2.3</td>
+    </tr>
+  </table>
+  
+  <h2>Enerji Tüketimi</h2>
+  <table>
+    <tr>
+      <th>Kaynak</th>
+      <th>Tüketim</th>
+      <th>Maliyet (₺)</th>
+      <th>CO₂ Emisyonu (kg)</th>
+    </tr>
+    <tr>
+      <td>Şebeke Elektriği</td>
+      <td>42,500 kWh</td>
+      <td>105,200</td>
+      <td>23,800</td>
+    </tr>
+    <tr>
+      <td>Güneş Enerjisi</td>
+      <td>28,900 kWh</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Rüzgar Enerjisi</td>
+      <td>11,600 kWh</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Biyogaz</td>
+      <td>7,250 kWh</td>
+      <td>3,600</td>
+      <td>980</td>
+    </tr>
+    <tr>
+      <td>Dizel Yakıt</td>
+      <td>2,450 litre</td>
+      <td>98,000</td>
+      <td>6,450</td>
+    </tr>
+  </table>
+
+  <h2>Sensör Verileri (Ortalama)</h2>
+  <table>
+    <tr>
+      <th>Sensör Tipi</th>
+      <th>Değer</th>
+      <th>Min.</th>
+      <th>Maks.</th>
+    </tr>
+    <tr>
+      <td>Toprak Nemi (%)</td>
+      <td>41.8</td>
+      <td>32.4</td>
+      <td>58.6</td>
+    </tr>
+    <tr>
+      <td>Toprak Sıcaklığı (°C)</td>
+      <td>12.6</td>
+      <td>8.2</td>
+      <td>16.5</td>
+    </tr>
+    <tr>
+      <td>Hava Sıcaklığı (°C)</td>
+      <td>15.8</td>
+      <td>3.4</td>
+      <td>28.7</td>
+    </tr>
+    <tr>
+      <td>Hava Nemi (%)</td>
+      <td>68.3</td>
+      <td>42.5</td>
+      <td>92.8</td>
+    </tr>
+    <tr>
+      <td>Yaprak Islak Süresi (saat/gün)</td>
+      <td>2.8</td>
+      <td>0</td>
+      <td>8.5</td>
+    </tr>
+    <tr>
+      <td>CO₂ Seviyesi (ppm)</td>
+      <td>458</td>
+      <td>392</td>
+      <td>684</td>
+    </tr>
+  </table>
+
+  <div class="footer">
+    <p>Bu veri dışa aktarım örneği, Yeşil Miras Çiftliği'nin Ocak 2025 verilerinden derlenmiştir.</p>
+    <p>© 2025 Yeşil Miras - Tüm hakları saklıdır.</p>
+  </div>
+</body>
+</html> 

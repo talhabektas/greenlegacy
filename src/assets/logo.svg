@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="50" viewBox="0 0 200 50">
+  <g transform="translate(10,0)">
+    <circle cx="25" cy="25" r="23" fill="#e8f5e9" />
+    <circle cx="25" cy="25" r="20" fill="#2e7d32" stroke="#e8f5e9" stroke-width="1" />
+    <path d="M25 10 Q 32.5 17.5 32.5 25 Q 32.5 32.5 25 40 Q 17.5 32.5 17.5 25 Q 17.5 17.5 25 10" fill="#81c784" />
+    <path d="M25 15 L 25 40" stroke="#e8f5e9" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M21 20 L 29 20" stroke="#e8f5e9" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M19 25 L 31 25" stroke="#e8f5e9" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+  <g transform="translate(60,0)">
+    <text x="0" y="30" font-family="Arial, sans-serif" font-weight="bold" font-size="22" fill="#2e7d32">YEŞİLMİRAS</text>
+  </g>
+</svg> 

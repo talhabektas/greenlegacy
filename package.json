@@ -1,0 +1,41 @@
+{
+  "name": "yesilmiras-dashboard-project",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "YeşilMiras Dashboard - Sürdürülebilir binalar için veri izleme ve analiz panosu",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "sürdürülebilirlik",
+    "dashboard",
+    "veri",
+    "yeşil",
+    "enerji",
+    "verimlilik"
+  ],
+  "author": "YeşilMiras",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.9",
+    "@mui/material": "^5.14.10",
+    "axios": "^1.8.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.4.0",
+    "recharts": "^2.15.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
