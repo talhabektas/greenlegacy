@@ -1,6 +1,6 @@
-# Yeşil Miras Backend
+# Yeşil Miras 
 
-Bu proje, Yeşil Miras uygulamasının backend servisini içerir. Go programlama dili kullanılarak geliştirilmiştir.
+Bu proje, Yeşil Miras uygulamasının servislerini içerir. Go ve typescript programlama dilleri kullanılarak geliştirilmiştir.
 
 ## Gereksinimler
 
@@ -12,7 +12,7 @@ Bu proje, Yeşil Miras uygulamasının backend servisini içerir. Go programlama
 
 1. Projeyi klonlayın:
 ```bash
-git clone https://github.com/your-username/yesil-miras.git
+git clone https://github.com/talhabektas/yesil-miras.git
 cd yesil-miras/yeşil-miras-backend
 ```
 
