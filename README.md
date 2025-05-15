@@ -1,73 +1,77 @@
 # Yeşil Miras 
 
-Bu proje, Yeşil Miras uygulamasının servislerini içerir. Go ve typescript programlama dilleri kullanılarak geliştirilmiştir.
+A sustainable real estate tokenization platform democratizing property investment. By fractionalizing premium ecofriendly properties through blockchain technology, we enable low-capital investors to access high-quality real estate with
+minimal entry barriers. Featuring real-time sustainability monitoring via IoT sensors, innovative digital farming concept,
+and carbon economy integration.
 
-## Gereksinimler
+# 🌿 Yesil Miras Backend
 
-- Go 1.22 veya üzeri
-- PostgreSQL 15 veya üzeri
-- Docker ve Docker Compose (opsiyonel)
+## Requirements
 
-## Kurulum
+- Go 1.22 or higher
+- PostgreSQL 15 or higher
+- Docker and Docker Compose (optional)
 
-1. Projeyi klonlayın:
+## Installation
+
+1. Clone the project:
 ```bash
 git clone https://github.com/talhabektas/yesil-miras.git
-cd yesil-miras/yeşil-miras-backend
+cd yesil-miras/yesil-miras-backend
 ```
 
-2. Bağımlılıkları yükleyin:
+2. Download dependencies:
 ```bash
 go mod download
 ```
 
-3. `.env` dosyasını oluşturun:
+3. Create a `.env` file:
 ```bash
 cp .env.example .env
 ```
 
-4. Veritabanını oluşturun:
+4. Create the database:
 ```bash
 createdb yesil_miras
 ```
 
-5. Uygulamayı çalıştırın:
+5. Run the application:
 ```bash
 go run cmd/main.go
 ```
 
-## Docker ile Çalıştırma
+## Running with Docker
 
-1. Docker Compose ile tüm servisleri başlatın:
+1. Start all services with Docker Compose:
 ```bash
 docker-compose up --build
 ```
 
-2. Servisleri durdurun:
+2. Stop the services:
 ```bash
 docker-compose down
 ```
 
 ## API Endpoints
 
-### Kimlik Doğrulama
-- `POST /api/auth/register` - Yeni kullanıcı kaydı
-- `POST /api/auth/login` - Kullanıcı girişi
+### Authentication
+- `POST /api/auth/register` - Register a new user
+- `POST /api/auth/login` - Log in a user
 
-### Projeler
-- `POST /api/projects` - Yeni proje oluşturma
-- `GET /api/projects` - Tüm projeleri listeleme
-- `GET /api/projects/:id` - Belirli bir projeyi getirme
+### Projects
+- `POST /api/projects` - Create a new project
+- `GET /api/projects` - List all projects
+- `GET /api/projects/:id` - Get a specific project
 
-### Görevler
-- `POST /api/tasks` - Yeni görev oluşturma
-- `GET /api/projects/:projectId/tasks` - Projeye ait görevleri listeleme
+### Tasks
+- `POST /api/tasks` - Create a new task
+- `GET /api/projects/:projectId/tasks` - List tasks for a project
 
-### Yorumlar
-- `POST /api/comments` - Yeni yorum oluşturma
-- `GET /api/tasks/:taskId/comments` - Göreve ait yorumları listeleme
+### Comments
+- `POST /api/comments` - Create a new comment
+- `GET /api/tasks/:taskId/comments` - List comments for a task
 
-## Proje Yapısı
+## Project Structure
 
 ```
 .
@@ -93,24 +97,25 @@ docker-compose down
 └── .env
 ```
 
-## Geliştirme
+## Development
 
-1. Yeni bir branch oluşturun:
+1. Create a new branch:
 ```bash
 git checkout -b feature/your-feature-name
 ```
 
-2. Değişikliklerinizi commit edin:
+2. Commit your changes:
 ```bash
 git commit -m "Add your feature"
 ```
 
-3. Branch'inizi push edin:
+3. Push your branch:
 ```bash
 git push origin feature/your-feature-name
 ```
 
-4. Bir Pull Request oluşturun.
+4. Open a Pull Request.
+
 
 ## Lisans
 
